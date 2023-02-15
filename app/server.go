@@ -34,6 +34,5 @@ func handleConnection(c net.Conn) {
 		}
 
 		c.Write([]byte("+PONG\r\n"))
-
 	}
 }
